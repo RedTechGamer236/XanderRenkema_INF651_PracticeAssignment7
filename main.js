@@ -113,8 +113,8 @@ const myClasses = {
   thirdHour: "Biology"
 };
 ////////// Don't change the above object
-function goToSecondClass(classes) {
-  return "Time to go to " + myClasses['secondHour'] + " class!";
+function goToSecondClass({ secondHour }) {
+  return "Time to go to ${secondHour} class!";
 }
 
 // 8a) Create a generic object named pie.
